@@ -7,12 +7,12 @@ Roadmap xây dựng web thương mại điện tử với tính năng xem sản 
 
 **Goal:** Thiết lập nền tảng kỹ thuật chuẩn, không throwaway.
 
-- [ ] Init Next.js (App Router)
-- [ ] TypeScript
-- [ ] Tailwind CSS
-- [ ] ESLint + Prettier
-- [ ] Folder structure chuẩn production
-- [ ] Base layout + metadata SEO
+- [x] Init Next.js (App Router)
+- [x] TypeScript
+- [x] Tailwind CSS
+- [x] ESLint + Prettier
+- [x] Folder structure chuẩn production
+- [x] Base layout + metadata SEO
 
 Deliverable:
 - Repo khởi tạo sẵn sàng phát triển dài hạn
@@ -23,13 +23,13 @@ Deliverable:
 
 **Goal:** Xây dựng viewer xoay 360° dựa trên image sequence.
 
-- [ ] Viewer component (Canvas hoặc `<img>`)
-- [ ] Load image sequence (N frames, mặc định 120)
-- [ ] Drag chuột để xoay
-- [ ] Auto rotate (configurable speed)
-- [ ] Loop rotation
-- [ ] Touch support (mobile)
-- [ ] Frame index mapping theo drag distance
+- [x] Viewer component (Canvas hoặc `<img>`)
+- [x] Load image sequence (N frames, mặc định 120)
+- [x] Drag chuột để xoay
+- [x] Auto rotate (configurable speed)
+- [x] Loop rotation
+- [x] Touch support (mobile)
+- [x] Frame index mapping theo drag distance
 
 Deliverable:
 - Viewer hoạt động độc lập, có thể reuse cho PDP sau này
@@ -61,11 +61,11 @@ Deliverable:
 
 Route: `/demo/setup`
 
-- [ ] Upload ảnh demo (image sequence)
-- [ ] Validate số lượng frame
-- [ ] Preview sequence
-- [ ] Form chỉnh ViewerConfig
-- [ ] Generate demo product data (JSON)
+- [x] Upload ảnh demo (image sequence)
+- [x] Validate số lượng frame
+- [x] Preview sequence
+- [x] Form chỉnh ViewerConfig
+- [x] Generate demo product data (JSON)
 
 Deliverable:
 - Có thể setup viewer demo mà không cần code
